@@ -25,7 +25,7 @@ chrome.get(url="http://chadan.cn/MOBILE")
 while True:
     try:
         # 面值选择
-        chrome.find_element_by_xpath(".//*[@id='takeOrder']/td[2]").click()
+        chrome.find_element_by_xpath(".//*[@id='takeOrder']/td[4]").click()
         time.sleep(0.5)
         # 动态提交订单
         chrome.find_element_by_class_name("sure-take-order").click()
